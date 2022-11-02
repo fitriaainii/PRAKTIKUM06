@@ -1,0 +1,71 @@
+/* Untuk Ubah Style Body */
+body{
+    background-color: rgb(168, 236, 248);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Untuk Ubah Header */
+#header {
+    background-color: rgb(59, 177, 157);
+    text-align: center;
+    padding: 10px;
+}
+#header h1 {
+    color: rgb(249, 249, 250);
+}
+
+#header blockquote {
+    background-color: rgb(63, 156, 184);
+    color: white;
+    border: 2px dotted rgb(248, 247, 247);
+}
+
+/* Untuk Ubah Style Menu */
+.menu ul{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
+}
+
+/*Untuk Ubah Style Gambar */
+.gambar{
+    text-align: center;
+}
+.gambar img{
+    width: 20%;
+}
+
+/*Untuk Ubah Style Koleksi */
+.koleksi{
+    text-align: center;
+}
+.koleksi img{
+    width: 20%;
+}
+
+/* Untuk Memperbesar Awal Huruf di Paragraf */
+.fp::first-letter{
+    font-size: 50px;
+    color: rgb(0, 0, 10);
+}
+
+/* Untuk Meratakan Paragraf */
+.isi{
+    text-align: justify;
+}
+
+/* Untuk Ubah Style Promo */
+.promo{
+    color: red;
+    text-align: center;
+}
+
+/* Untuk Ubah Style Menu Promosi */
+.menu ul{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
